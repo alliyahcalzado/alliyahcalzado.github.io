@@ -86,3 +86,14 @@
   padding: 2rem;
   text-align: center;
 }
+
+.link-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+.link-row a {
+  color: brown; /* optional, match your existing link style */
+  text-decoration: none;
+}
