@@ -97,3 +97,9 @@
   color: #998675; /* optional, match your existing link style */
   text-decoration: none;
 }
+
+.align-right:hover {
+  color: darkbrown;         /* change text color on hover */
+  font-weight: bold;      /* optional: makes it bold */
+  text-decoration: underline; /* optional: adds underline */
+}
