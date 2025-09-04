@@ -63,3 +63,26 @@
     margin: 0 auto;
     text-align: left;
   }
+
+/* Center images (like certificates) */
+.centered-img {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+/* Optional: make image responsive and pretty */
+.centered-img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: layout container to centralize page content */
+.main-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
