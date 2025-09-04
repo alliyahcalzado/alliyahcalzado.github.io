@@ -99,7 +99,7 @@
 }
 
 .align-right:hover {
-  color: darkbrown;         /* change text color on hover */
+  color: #603913;         /* change text color on hover */
   font-weight: bold;      /* optional: makes it bold */
   text-decoration: underline; /* optional: adds underline */
 }
