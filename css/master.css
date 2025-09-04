@@ -98,23 +98,19 @@
   text-decoration: none;
 }
 
-/* Style for both links */
+/* Style all navigation links */
 .nav-link {
-  color: brown;
+  color: #998675;
   text-decoration: none;
+  margin: 0 1rem; /* adds space between links */
   transition: all 0.3s ease;
 }
 
-/* Hover effect for both links */
+/* Hover effect for all nav links */
 .nav-link:hover {
   color: #603913;
   font-weight: bold;
   text-decoration: underline;
 }
 
-/* Align the second link to the right */
-.link-row {
-  display: flex;
-  justify-content: space-between;
-  margin: 2rem;
 }
