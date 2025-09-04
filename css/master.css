@@ -98,8 +98,23 @@
   text-decoration: none;
 }
 
-.align-right:hover {
-  color: #603913;         /* change text color on hover */
-  font-weight: bold;      /* optional: makes it bold */
-  text-decoration: underline; /* optional: adds underline */
+/* Style for both links */
+.nav-link {
+  color: brown;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect for both links */
+.nav-link:hover {
+  color: #603913;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Align the second link to the right */
+.link-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
 }
