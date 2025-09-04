@@ -13,7 +13,7 @@
   }
 
   body {
-  background-image: url('ad9565cab2278bb860e0e651577d7d84_t.jpeg');
+  background-image: url('../images/ad9565cab2278bb860e0e651577d7d84_t.jpeg');
   background-size: cover;       /* optional, fills the screen */
   background-repeat: no-repeat; /* optional, prevents tiling */
   color: black; /* set the text color to black here */
