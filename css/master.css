@@ -16,7 +16,7 @@
     body {
   background-image: url('../images/ad9565cab2278bb860e0e651577d7d84_t.jpeg');
   background-size: cover;       /* optional, fills the screen */
-  background-repeat: no-repeat; /* optional, prevents tiling */
+  background-repeat: repeat; 
   color: black; /* set the text color to black here */
   font-family: Arial, Helvetica, sans-serif;/* set the font here */
   text-align: center;/* set the text alignment here */
