@@ -113,3 +113,15 @@
   text-decoration: underline;
 }
 
+.banner {
+  border: 4px solid transparent; /* invisible border to make shadow look neat */
+  border-radius: 10px;            /* rounded corners */
+  box-shadow: 0 0 15px 5px rgba(131, 105, 83, 0.7); /* brownish shadow glow */
+  /* optional smooth transition on hover */
+  transition: box-shadow 0.3s ease;
+}
+
+.banner:hover {
+  box-shadow: 0 0 25px 8px rgba(131, 105, 83, 0.9); /* stronger glow on hover */
+}
+
